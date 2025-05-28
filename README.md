@@ -19,6 +19,17 @@
 - Docker e Docker Compose
 - MongoDB (opcional, caso rode localmente sem Docker)
 
+
+## 🌐 Deploy em CLoud
+
+- A API está publicada gratuitamente no Render e pode ser utilizada das seguintes formas:
+
+- **Via Cloud:**  
+  [https://api-bank-1.onrender.com/graphql](https://api-bank-1.onrender.com/graphql)
+- **Via ambiente local:**  
+  Siga as instruções abaixo para rodar o projeto localmente com Docker ou Node.js.
+
+
 ## 2. Rodando com Docker (RECOMENDADO)
 
 ```bash
