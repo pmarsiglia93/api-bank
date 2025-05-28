@@ -58,7 +58,7 @@ npm test
 + Testes cobrem todos os fluxos principais:
 + Criação de conta, consulta de saldo, depósito, saque e tratamento de erros.
 
-+ Cobertura de código: acima de 90%.
++ Cobertura de código: acima de 85%.
 
 ## 🔥 Exemplos de Uso (GraphQL)
 
