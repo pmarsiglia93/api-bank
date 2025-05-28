@@ -1,20 +1,23 @@
-# 🚀 Bank API – Challenge Funcional Health 
+# 🚀 Bank API – Challenge Funcional Health
+
 #### API de simulação de banco digital desenvolvida para o processo seletivo da Funcional Health.
 
 # 📖 Descrição
+
 #### Esta API GraphQL simula operações bancárias de conta corrente (criação de conta, consulta de saldo, depósito e saque), persistindo os dados em MongoDB.
-#### Testes unitários com Jest garantem alta confiabilidade e cobertura acima de 90%.
+
+#### Testes unitários com Jest garantem alta confiabilidade e cobertura acima de 85%.
 
 ## 🛠️ Tecnologias Utilizadas
 
-+ Node.js
-+ GraphQL (Apollo Server Express)
-+ MongoDB (Mongoose)
-+ Docker & Docker Compose
-+ Jest (testes unitários)
-+ Supertest (opcional)
-+ Docker e Docker Compose
-+ MongoDB (opcional, caso rode localmente sem Docker)
+- Node.js
+- GraphQL (Apollo Server Express)
+- MongoDB (Mongoose)
+- Docker & Docker Compose
+- Jest (testes unitários)
+- Supertest (opcional)
+- Docker e Docker Compose
+- MongoDB (opcional, caso rode localmente sem Docker)
 
 ## 2. Rodando com Docker (RECOMENDADO)
 
@@ -23,9 +26,11 @@ docker-compose up --build
 ```
 
 ### Acesse a interface GraphQL:
+
 http://localhost:4000/graphql
 
 #### Nota:
+
 - No Ubuntu 24.04, a instalação local do MongoDB não é suportada oficialmente.
 - Recomendo fortemente rodar via Docker, que funcionará em qualquer sistema.
 
@@ -55,10 +60,10 @@ npm run dev
 npm test
 ```
 
-+ Testes cobrem todos os fluxos principais:
-+ Criação de conta, consulta de saldo, depósito, saque e tratamento de erros.
+- Testes cobrem todos os fluxos principais:
+- Criação de conta, consulta de saldo, depósito, saque e tratamento de erros.
 
-+ Cobertura de código: acima de 90%.
+- Cobertura de código: acima de 90%.
 
 ## 🔥 Exemplos de Uso (GraphQL)
 
@@ -115,7 +120,7 @@ mongodb://localhost:27017/bank
 
 ### 📝 Observações Importantes
 
-+ Caso utilize Ubuntu 24.04, só é possível rodar o MongoDB facilmente via Docker.
+- Caso utilize Ubuntu 24.04, só é possível rodar o MongoDB facilmente via Docker.
 
 ### Se tiver dificuldades para rodar localmente, basta subir o projeto com Docker Compose.
 
