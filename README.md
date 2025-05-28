@@ -119,6 +119,17 @@ query {
 }
 ```
 
+### 5. Consultar todas as contas
+
+```bash
+query {
+  contas {
+    conta
+    saldo
+  }
+}
+```
+
 ## 📦 Variáveis e Endpoints
 
 ### GraphQL Endpoint:
