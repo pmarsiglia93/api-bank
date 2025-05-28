@@ -8,7 +8,7 @@ module.exports = {
       if (!c) throw new Error('Conta não encontrada');
       return c.saldo;
     },
-    contas: async () => {   // <-- Adicione este resolver!
+    contas: async () => {
       return await Conta.find();
     },
   },
