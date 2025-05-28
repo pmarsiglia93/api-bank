@@ -71,6 +71,9 @@ npm run dev
 npm test
 ```
 
+![image](https://github.com/user-attachments/assets/42ccdc92-d940-43df-bed9-492c76d3d204)
+
+
 - Testes cobrem todos os fluxos principais:
 - Criação de conta, consulta de saldo, depósito, saque e tratamento de erros.
 
